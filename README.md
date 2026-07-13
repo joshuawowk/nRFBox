@@ -28,6 +28,8 @@
 ## 📖 Explore the nRFBox Wiki
 
 Complete project story, in-depth tutorials, and all the features in [Wiki](https://github.com/cifertech/nRFBox/wiki)! From Wi-Fi deauthentication attacks to Sub-GHz signal replay, the Wiki covers everything you need to get started. [Click here to explore now!](https://github.com/cifertech/nRFBox/wiki)
+
+> 🔧 **Building one?** See the step-by-step [Assembly & Flashing Guide](ASSEMBLY_AND_FLASHING.md) for the bill of materials, pin map, PCB/breadboard assembly, and three ways to flash the firmware.
   
 <div>&nbsp;</div>
 
@@ -95,8 +97,6 @@ Complete project story, in-depth tutorials, and all the features in [Wiki](https
 ## :star2: About the Project
 nRFBOX is a wireless toolkit designed to explore, analyze, and interact with various wireless communication protocols. It combines the ESP32 Wroom32U, NRF24 modules, an OLED display, and other components to create a multifunctional device that can act as a scanner, analyzer, jammer, BLE jammer, BLE spoofer, and perform advanced tasks such as the "Sour Apple" attack.
 
-jwowk
-
 <div align="center"> 
   <img src="https://github.com/user-attachments/assets/1d49f15d-45be-4ed4-b92a-842d628c8695" alt="screenshot" width="Auto" height="Auto" />
 </div>
@@ -113,8 +113,8 @@ jwowk
 - **BLE Spoofer** - Spoofs BLE devices to simulate various BLE signals for testing and research.
 - **Sour Apple** - A specialized attack for testing security measures against specific wireless vulnerabilities.
 - **Proto Kill Mode** - Proto Kill has evolved into a powerful tool for disrupting various protocols.
-- **WiFi Scanner** - Scan for hidden and visible BLE devices
-- **BLE Scanner** - List nearby Wi-Fi networks with extended details
+- **BLE Scanner** - Scan for nearby Bluetooth Low Energy devices and view their details
+- **WiFi Scanner** - List nearby Wi-Fi networks with signal strength and channel details
 - **Wi-Fi Deauthentication Attack** - Send deauthentication frames to disrupt client connections
 
 > Explore the nRFBOX's features in detail at the [nRFBOX Wiki](https://github.com/cifertech/nRFBox/wiki/Features)! 
@@ -149,7 +149,7 @@ jwowk
 <!-- License -->
 ## :warning: License
 
-Distributed under the MIT License. See LICENSE.txt for more information.
+Distributed under the MIT License. See the [LICENCE](LICENCE) file for more information.
 
 
 

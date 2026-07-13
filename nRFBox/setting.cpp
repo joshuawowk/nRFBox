@@ -60,8 +60,9 @@ void initAllRadios() {
 }
 
 void Str(uint8_t x, uint8_t y, const uint8_t* asciiArray, size_t len) {
-  char buf[64]; 
-  for (size_t i = 0; i < len && i < sizeof(buf) - 1; i++) {
+  char buf[64];
+  if (len > sizeof(buf) - 1) len = sizeof(buf) - 1;
+  for (size_t i = 0; i < len; i++) {
     buf[i] = (char)asciiArray[i];
   }
   buf[len] = '\0';
@@ -71,7 +72,8 @@ void Str(uint8_t x, uint8_t y, const uint8_t* asciiArray, size_t len) {
 
 void CenteredStr(uint8_t screenWidth, uint8_t y, const uint8_t* asciiArray, size_t len, const uint8_t* font) {
   char buf[64];
-  for (size_t i = 0; i < len && i < sizeof(buf) - 1; i++) {
+  if (len > sizeof(buf) - 1) len = sizeof(buf) - 1;
+  for (size_t i = 0; i < len; i++) {
     buf[i] = (char)asciiArray[i];
   }
   buf[len] = '\0';

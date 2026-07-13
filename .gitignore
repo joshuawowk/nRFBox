@@ -1,0 +1,26 @@
+# Arduino / arduino-cli build output
+build/
+*.elf
+*.map
+*.hex
+*.d
+
+# Arduino IDE sketch build cache
+nRFBox/build/
+*.ino.node32s.elf
+*.ino.node32s.map
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Editor / OS cruft
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Extracted tools
+Flash File/flash_download_tool_*/
