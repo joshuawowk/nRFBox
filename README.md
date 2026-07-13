@@ -95,7 +95,7 @@ Complete project story, in-depth tutorials, and all the features in [Wiki](https
 ## :star2: About the Project
 nRFBOX is a wireless toolkit designed to explore, analyze, and interact with various wireless communication protocols. It combines the ESP32 Wroom32U, NRF24 modules, an OLED display, and other components to create a multifunctional device that can act as a scanner, analyzer, jammer, BLE jammer, BLE spoofer, and perform advanced tasks such as the "Sour Apple" attack.
 
-
+jwowk
 
 <div align="center"> 
   <img src="https://github.com/user-attachments/assets/1d49f15d-45be-4ed4-b92a-842d628c8695" alt="screenshot" width="Auto" height="Auto" />
