@@ -200,9 +200,8 @@ void wsl_bypasser_send_raw_frame(const uint8_t *frame_buffer, int size) {
 void wsl_bypasser_send_deauth_frame(const wifi_ap_record_t *ap_record, uint8_t chan) {
     esp_wifi_set_channel(chan, WIFI_SECOND_CHAN_NONE);
     memcpy(deauth_frame, deauth_frame_default, sizeof(deauth_frame_default));
-    memcpy(&deauth_frame[10], ap_record->bssid, 6); 
-    memcpy(&deauth_frame[16], ap_record->bssid, 6); 
-    deauth_frame[26] = 7;
+    memcpy(&deauth_frame[10], ap_record->bssid, 6);
+    memcpy(&deauth_frame[16], ap_record->bssid, 6);
     wsl_bypasser_send_raw_frame(deauth_frame, sizeof(deauth_frame));
 }
 

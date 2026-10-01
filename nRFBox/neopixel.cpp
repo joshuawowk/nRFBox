@@ -36,6 +36,8 @@ void setNeoPixelColour(const std::string& colour) {
     colorValue = pixels.Color(5, 0, 5);
   } else if (colour == "cyan") {
     colorValue = pixels.Color(0, 5, 5);
+  } else if (colour == "orange") {
+    colorValue = pixels.Color(5, 2, 0);
   } else if (colour == "white") {
     colorValue = pixels.Color(5, 5, 5);
   } else if (colour == "null") {
